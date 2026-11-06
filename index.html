@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parc animalier de Val-Sorin</title>
+  <!-- MODIF : version CSS, la page utilise css/site.css (plus de Bootstrap) -->
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <!-- MODIF Sujet 4 : header avec id="haut" pour le lien "Haut de page" du footer -->
+  <header id="haut">
+    <strong>Val-Sorin</strong>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="secteurs.html">Secteurs</a></li>
+        <li><a href="ticket.html">Signaler un incident</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <h1>Parc animalier de Val-Sorin</h1>
+ 
+    <h2>Les trois dernières naissances</h2>
+    <ul class="cartes">
+      <li>
+        <img src="images/tropicale.svg" alt="Forêt tropicale">
+        <h3>Lua, capucin</h3>
+        <p>Né(e) le 20/12/2025, forêt tropicale.</p>
+      </li>
+      <li>
+        <img src="images/banquise.svg" alt="Banquise">
+        <h3>Flocon, manchot de Humboldt</h3>
+        <p>Né(e) le 18/01/2026, banquise.</p>
+      </li>
+      <li>
+        <img src="images/ferme.svg" alt="Ferme pédagogique">
+        <h3>Caramel, chèvre naine</h3>
+        <p>Né(e) le 02/03/2026, ferme pédagogique.</p>
+      </li>
+    </ul>
+ 
+    <h2>Les six secteurs</h2>
+    <!-- MODIF : les cartes Bootstrap sont remplacées par la liste .cartes de site.css -->
+    <ul class="cartes">
+      <li>
+        <img src="images/savane.svg" alt="Savane">
+        <h3>Savane</h3>
+        <p>Grande plaine herbeuse de trois hectares, girafes, zèbres et autruches en cohabitation.</p>
+        <a href="secteur.html">Voir la savane</a>
+      </li>
+      <li>
+        <img src="images/tropicale.svg" alt="Forêt tropicale">
+        <h3>Forêt tropicale</h3>
+        <p>Serre chaude et humide, canopée artificielle, singes, paresseux et oiseaux colorés.</p>
+        <a href="secteurs.html#TRO">Voir le secteur</a>
+      </li>
+      <li>
+        <img src="images/banquise.svg" alt="Banquise">
+        <h3>Banquise</h3>
+        <p>Bassin réfrigéré avec plage de glace, manchots et phoques.</p>
+        <a href="secteurs.html#BAN">Voir le secteur</a>
+      </li>
+      <li>
+        <img src="images/ferme.svg" alt="Ferme pédagogique">
+        <h3>Ferme pédagogique</h3>
+        <p>Enclos ouverts au contact, chèvres, ânes et poules, ateliers pour les scolaires.</p>
+        <a href="secteurs.html#FER">Voir le secteur</a>
+      </li>
+      <li>
+        <img src="images/voliere.svg" alt="Grande volière">
+        <h3>Grande volière</h3>
+        <p>Volière de vingt mètres de haut traversée par une passerelle, rapaces et perroquets.</p>
+        <a href="secteurs.html#VOL">Voir le secteur</a>
+      </li>
+      <li>
+        <img src="images/aquarium.svg" alt="Aquarium">
+        <h3>Aquarium</h3>
+        <p>Douze bassins d'eau douce et d'eau de mer, tunnel sous le bassin des raies.</p>
+        <a href="secteurs.html#AQU">Voir le secteur</a>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <p>Parc animalier de Val-Sorin, route des Étangs, Val-Sorin</p>
+ 
+    <nav aria-label="Liens du pied de page">
+      <ul>
+        <li><a href="secteurs.html">Les secteurs</a></li>
+        <li><a href="ticket.html">Signaler un incident</a></li>
+        <li><a href="#haut">Haut de page</a></li>
+      </ul>
+    </nav>
+    <small>© 2026 Parc animalier de Val-Sorin</small>
+  </footer>
+</body>
+</html>
